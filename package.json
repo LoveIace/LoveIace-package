@@ -22,5 +22,9 @@
   "homepage": "https://github.com/LoveIace/LoveIace-package#readme",
   "devDependencies": {
     "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "lukas-package": "git+https://github.com/LukasAnda/lukas-package.git#b00d8fa58da20c74c370c8cbcae1d9ccdbaf3493"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "name": "loveiace-package",
+  "version": "1.0.0",
+  "description": "npm",
+  "main": "shuffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "shuffle": "mocha --color src/shuffle.js",
+    "test": "mocha --color test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveIace/LoveIace-package.git"
+  },
+  "author": "Tomáš Bedej",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoveIace/LoveIace-package/issues"
+  },
+  "homepage": "https://github.com/LoveIace/LoveIace-package#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
